@@ -1,0 +1,40 @@
+export default {
+  cost: "广告主为广告投放总共付出的费用成本",
+  view_count: "广告被展现给用户的次数",
+  valid_click_count: "经过平台反作弊判断后有效且被计费的点击次数",
+  ctr: "广告被点击的比率，计算公式：点击量/曝光量*100%",
+  cpc: "广告主为每次点击付出的费用成本，计算公式：花费/点击量",
+  thousand_display_price:
+    "广告平均每一千次展现所付出的费用，计算公式：花费/曝光量*1000",
+  download_count: "用户点击广告并完成app下载的次数",
+  download_rate: "app点击后被下载的比率，计算公式：下载量/点击量*100%",
+  download_cost: "广告主为每次下载付出的费用成本，计算公式：花费/下载量",
+  install_count: "用户下载app并完成安装的次数",
+  install_cost: "广告主为每次安装付出的费用成本，计算公式：花费/安装量",
+  activated_count: "用户安装app完成并第一次打开的次数",
+  activated_rate: "app下载后第一次被打开的比率，计算公式：激活量/下载量*100%",
+  click_activated_rate:
+    "app广告被点击后安装app并第一次打开的比率，计算公式：激活量/点击量*100%",
+  activated_cost: "广告主为每次激活付出的费用成本，计算公式是花费/激活量",
+  app_register_count: "用户点击广告后注册成为app用户的次数",
+  app_register_cost: "广告主为每次注册付出的费用成本，计算公式：花费/注册量",
+  register_rate: "注册数量与点击数的比率，计算公式：注册数量/点击量*100%",
+  app_checkout_count: "用户在app中完成付费的次数",
+  app_checkout_amount: "用户在app中完成付费的总金额",
+  app_checkout_cost:
+    "广告主为每次付费付出的费用成本，计算公式：花费/付费行为量",
+  pay_rate: "付费数量与点击数的比率，计算公式：付费量/点击量",
+  self_real_consumption: "广告花费/（1+媒体返点）",
+  self_customer_register: "所选时间范围内，首次安装应用并打开的排重设备数",
+  self_active_cost: "实际花费/激活数",
+  self_registers: "所选时间范围内，注册事件的排重设备数",
+  self_register_cost: "实际花费/注册数",
+  self_user_new_pay: "所选时间范围内，当日激活且当日付费的设备总数",
+  self_user_new_pay_rate: "新增付费数/激活数",
+  self_income_new_user: "所选时间范围内，当日激活且当日付费的付费金额",
+  self_ltv1: "选择日期范围内的新增设备，在当日的平均付费收入",
+  self_roi1: "选择日期范围内的新增设备，在当日的付费收入/实际花费",
+  self_monetization_clicks: "所选时间范围内，激活用户的变现广告点击总数",
+  self_average_monetization_clicks:
+    "所选时间范围内，激活用户的人均广告点击次数。计算公式：变现点击数/激活数"
+};

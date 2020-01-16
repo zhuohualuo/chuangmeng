@@ -1,0 +1,52 @@
+.table-toolbar--fixed {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  transition: top 1s;
+}
+
+.el-table--fixed {
+  .el-table__header-wrapper {
+    z-index: 999;
+    position: fixed;
+    transition: top 1s;
+  }
+  .el-table__footer-wrapper {
+    z-index: 999;
+    position: fixed;
+    transition: top 1s;
+  }
+}
+
+/*展开栏*/
+.el-table__body-wrapper{
+  .el-table__expanded-cell{
+    height: 314px;
+    position: relative;
+    .detail{
+      position: absolute;
+      left: 20px;
+      top: 15px;
+      z-index: 100;
+    }
+  }
+}
+
+.el-table__fixed{
+  .el-table__expanded-cell{
+    height: 314px;
+    .detail{
+      display: none;
+    }
+  }
+  &:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    width: 100%;
+    height: 8px;
+    background-color: #ffffff;
+    z-index: 4;
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="94">
+    <title>717</title>
+    <g fill="none" fill-rule="evenodd">
+        <rect stroke="#DCDEE3" fill="#FFF" x=".5" y=".5" width="55" height="93" rx="4"/>
+        <path fill="#3B4457" opacity=".044" d="M4 5h48v44H4zm0 48h10v10H4zm13 0h35v4H17zm0 7h27v3H17zM4 67h48v1H4z"/>
+        <path fill="#2e71ea" opacity=".8" d="M4 72h10v10H4z"/>
+        <path fill="#3B4457" opacity=".044" d="M17 72h35v4H17zm0 7h27v3H17zM4 86h48v1H4z"/>
+    </g>
+</svg>

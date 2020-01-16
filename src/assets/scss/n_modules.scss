@@ -1,0 +1,118 @@
+/* 主面板导航栏统一样式 */
+.tab-title-wrap {
+  background: #f8f8f9;
+  position: relative;
+  padding: 8px 16px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dcdee2;
+  flex-shrink: 0;
+
+  .el-menu {
+    &.el-menu--horizontal {
+      border-bottom: 0;
+      .el-menu-item {
+        width: 144px;
+        height: 40px;
+        padding: 0;
+        text-align: center;
+        background: #ffffff;
+        line-height: 44px;
+        border-bottom: 0;
+        position: relative;
+        border-radius: 4px 4px 0 0;
+        margin: 0 4px;
+        i {
+          font-size: 16px;
+          padding-right: 8px;
+        }
+        &:hover {
+          color: rgb(45, 140, 240) !important;
+          background: #ffffff !important;
+          border-radius: 2px 2px 0 0;
+          i {
+            color: rgb(45, 140, 240) !important;
+          }
+          &:after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background: #2e71ea;
+            left: 50%;
+            bottom: 0;
+            top: 0;
+            margin-left: -50%;
+            border-radius: 4px 4px 0 0;
+          }
+        }
+      }
+      .is-active {
+        background: #ffffff !important;
+        &:after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 3px;
+          background: #2e71ea;
+          left: 50%;
+          bottom: 0;
+          top: 0;
+          margin-left: -50%;
+          border-radius: 4px 4px 0 0;
+        }
+      }
+    }
+  }
+}
+
+/* 其他页面title标题样式统一 */
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  .page-header {
+    background: #f8f8f9;
+    position: relative;
+    padding: 8px 16px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid #dcdee2;
+    .title {
+      font-size: 14px;
+      color: rgb(45, 140, 240);
+      width: 144px;
+      height: 40px;
+      padding: 0;
+      text-align: center;
+      background: #ffffff;
+      line-height: 44px;
+      border-bottom: 0;
+      position: relative;
+      border-radius: 4px 4px 0 0;
+      margin: 0 4px;
+      &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #2e71ea;
+        left: 50%;
+        bottom: 0;
+        top: 0;
+        margin-left: -50%;
+        border-radius: 4px 4px 0 0;
+      }
+    }
+    .date-label {
+      margin-right: 8px;
+      font-size: 12px;
+      font-weight: 500;
+      color: #17233d;
+    }
+  }
+}
